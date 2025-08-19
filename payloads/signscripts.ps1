@@ -12,7 +12,7 @@ if (-not (Get-Module -ListAvailable -Name Az)) {
 Connect-AzAccount -ErrorAction Stop
 
 # Set the specific subscription (replace with your subscription ID)
-$subscriptionId = "<your-subscription-id>"
+$subscriptionId = "b7fe5b06-d5a2-4e45-b4f4-ca6b2ee2fd4e"
 Set-AzContext -Subscription $subscriptionId -ErrorAction Stop
 
 $endpoint = "<your-endpoint-url>"

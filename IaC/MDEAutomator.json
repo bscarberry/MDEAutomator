@@ -772,7 +772,7 @@
         },
         "publicNetworkAccessForIngestion": "Disabled",
         "publicNetworkAccessForQuery": "Enabled",
-        "retentionInDays": 30
+        "retentionInDays": 10
       },
       "dependsOn": [
         "[resourceId('Microsoft.ManagedIdentity/userAssignedIdentities', format('umi-mdeautomator-{0}', variables('environmentid')))]"
@@ -1291,7 +1291,7 @@
       },
       "sku": {
         "tier": "Basic",
-        "name": "B2"
+        "name": "B1"
       },
       "kind": "linux"
     },

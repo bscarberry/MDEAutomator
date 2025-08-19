@@ -1036,8 +1036,8 @@
       "location": "[variables('location')]",
       "properties": {
         "reserved": false,
-        "elasticScaleEnabled": true,
-        "maximumElasticWorkerCount": 5
+        "elasticScaleEnabled": false,
+        "maximumElasticWorkerCount": 1
       },
       "sku": {
         "tier": "ElasticPremium",
@@ -1287,7 +1287,7 @@
       "name": "[format('asp-mdeautomator-web-{0}', variables('environmentid'))]",
       "location": "[variables('location')]",
       "properties": {
-        "reserved": true
+        "reserved": false
       },
       "sku": {
         "tier": "Basic",
